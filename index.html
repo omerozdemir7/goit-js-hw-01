@@ -23,42 +23,9 @@
   </head>
   <body>
     <h1>🧪 Droid Order App - Test Çıktıları</h1>
-    <pre id="output"></pre>
 
     <script src="./js/task-1.js"></script>
     <script src="./js/task-2.js"></script>
     <script src="./js/task-3.js"></script>
-
-    <script>
-      const output = document.getElementById("output");
-      output.innerText = ""; // Sayfayı temizle
-
-      // Görev 1
-      output.innerText += "--- Görev 1 ---\n";
-      output.innerText += makeTransaction(5, 3000) + "\n";
-      output.innerText += makeTransaction(3, 1000) + "\n";
-      output.innerText += makeTransaction(10, 500) + "\n\n";
-
-      // Görev 2
-      output.innerText += "--- Görev 2 ---\n";
-      output.innerText += getShippingMessage("Australia", 120, 50) + "\n";
-      output.innerText += getShippingMessage("Germany", 80, 20) + "\n";
-      output.innerText += getShippingMessage("Sweden", 100, 20) + "\n\n";
-
-      // Görev 3
-      output.innerText += "--- Görev 3 ---\n";
-      output.innerText +=
-        'getElementWidth("50px", "8px", "4px") sonucu: ' +
-        getElementWidth("50px", "8px", "4px") +
-        "\n";
-      output.innerText +=
-        'getElementWidth("60px", "12px", "8.5px") sonucu: ' +
-        getElementWidth("60px", "12px", "8.5px") +
-        "\n";
-      output.innerText +=
-        'getElementWidth("200px", "0px", "0px") sonucu: ' +
-        getElementWidth("200px", "0px", "0px") +
-        "\n";
-    </script>
   </body>
 </html>
